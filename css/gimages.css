@@ -1,0 +1,497 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.googlehomepage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.google {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.googlenav {
+    height: 60px;
+}
+
+.googlenav1 {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.googlenavbar {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.googlenavbox {
+    color: #000;
+    position: relative;
+    /* display: flex;
+    width: auto;
+    justify-content: flex-end;
+    position: relative;
+    float: right;
+    white-space: nowrap; */
+}
+
+.googlenavbox1 {
+    height: 48px;
+}
+
+.googlemenubar {
+    float: right;
+
+    height: 48px;
+    padding: 0 4px;
+    line-height: normal;
+    box-sizing: border-box;
+    justify-content: flex-end;
+}
+
+.googlemenubar1 {
+    display: flex;
+    align-items: center;
+}
+
+.googlemenu {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.googlemenu1 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+}
+
+.backtohome {
+    padding-left: 15px;
+}
+
+
+.back2homelink {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 8px;
+}
+
+.back2homelink:hover {
+    border-radius: 50%;
+    background-color: rgb(233, 232, 232);
+
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: #5f6368;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 75%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    transition: .25s ease-in-out;
+    transition-delay: .5s;
+}
+
+a.back2homelink {
+    text-decoration: none;
+    color: #000;
+}
+
+a.back2homelink:hover {
+    text-decoration: underline;
+}
+
+.backarrow {
+    width: 24px;
+    height: 24px;
+
+    vertical-align: middle;
+}
+
+.googlemenu2 {
+    position: relative;
+    float: right;
+}
+
+.googleappsmenu {
+    display: inline;
+}
+
+
+
+.googleapps {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.googleappslink {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 8px;
+}
+
+.googleappslink:hover {
+    border-radius: 50%;
+    background-color: rgb(233, 232, 232);
+
+}
+
+
+.mi {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    color: #5f6368;
+    fill: currentColor;
+    cursor: pointer;
+    /* z-index: 999; */
+}
+
+.googlesignin {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 9px 23px;
+    background-color: #1a73e8;
+    -moz-border-radius: 4px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.googlesignin:hover {
+    background-color: #1a73e8;
+    opacity: 0.9;
+}
+
+a.signinlink {
+    text-decoration: none;
+    color: #fff;
+    display: inline;
+}
+
+.logoimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.googleimg {
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+
+
+.googlelogo {
+    position: relative;
+    max-height: 92px;
+}
+
+.googlelogoimg {
+    height: 100%;
+    margin-top: 198px;
+}
+
+#googleimg {
+    width: 272px;
+    height: 92px;
+}
+
+.imagenote {
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    white-space: nowrap;
+}
+
+.googlesearch {
+    max-height: 160px;
+}
+
+.googlesearchform {
+    padding: 20px;
+}
+
+
+.googlesearch1 {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+    width: 584px;
+    max-width: 584px;
+}
+
+.googlesearch2 {
+    display: flex;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.googlesearch3 {
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 0%;
+    padding: 5px 8px 0 14px;
+}
+
+.googlesearchinput {
+    display: flex;
+    padding-right: 13px;
+    margin-top: -5px;
+    align-items: center;
+}
+
+.searchicon {
+    margin: auto;
+    display: flex;
+}
+
+.searchicon1 {
+    margin-top: 3px;
+    color: #9aa0a6;
+}
+
+span.searchicon1 {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    color: #5f6368;
+    fill: currentColor;
+}
+
+
+
+.searchicon2 {
+    display: flex;
+    position: relative;
+}
+
+.searchico {
+    fill: #9aa0a6;
+}
+
+.searchinput {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.searchinputarea {
+    flex: 100%;
+    color: transparent;
+    white-space: pre;
+    height: 34px;
+    font-size: 14px;
+}
+
+.searchinputtextarea {
+    display: flex;
+    flex: 0 0 auto;
+    height: 34px;
+    width: 443px;
+    margin: 0;
+    margin-top: -34px;
+    padding: 0;
+    font-size: 16px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    outline-style: none;
+    border: none;
+    vertical-align: middle;
+}
+
+.searchbyimgcta {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    margin-top: -1px;
+    align-items: stretch;
+}
+
+.searchbyimage {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+}
+
+.cameraimg {
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+}
+
+.tooltipc .tooltipctext {
+    visibility: hidden;
+    width: 100px;
+    font-size: 11px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 89.5%;
+    margin-left: -60px;
+}
+
+.tooltipc .tooltipctext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltipc:hover .tooltipctext {
+    visibility: visible;
+    transition: .25s ease-in-out;
+    transition-delay: .5s;
+}
+
+
+.searchiconcta {
+    height: 44px;
+    width: 44px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    flex: 0 0 auto;
+    padding: 0;
+    margin-top: -3px;
+}
+
+.searchiconbutton {
+    background: none;
+    color: #4285f4;
+    height: 24px;
+    width: 24px;
+    margin: auto;
+}
+
+.searchiconsvg {
+    display: inline-block;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+}
+
+.searchiconsvg svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 24px;
+}
+
+.sectionspace {
+    height: 471px;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    ;
+}
+
+.sfooter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.msf {
+    padding: 0 20px;
+    align-items: center;
+}
+
+.fa {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+.fa,
+a.fa {
+    color: #70757a;
+    text-decoration: none;
+}
+
+.lside a:hover {
+    text-decoration: underline;
+}
+
+.rside a:hover {
+    text-decoration: underline;
+}
